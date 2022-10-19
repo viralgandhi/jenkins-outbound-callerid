@@ -1,0 +1,21 @@
+{
+  "callerIds": [
+    {
+      "phoneNumber": "+18044558186",
+      "friendlyName": "Virginia"
+    },
+    {
+      "phoneNumber": "+16156479890",
+      "friendlyName": "Tennessee"
+    },
+    {
+      "phoneNumber": "+19382225071",
+      "friendlyName": "Alabama"
+    },
+    {
+      "phoneNumber": "+18587588840",
+      "friendlyName": "California"
+    }
+  ],
+  "config-key": "config-value"
+}
