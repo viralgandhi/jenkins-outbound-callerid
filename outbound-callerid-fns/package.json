@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "twilio-run",
-    "deploy": "twilio-run deploy"
+    "deploy": "twilio-run deploy --username $TWILIO_ACCOUNT_SID --password $TWILIO_AUTH_TOKEN --override-existing-project --production"
   },
   "dependencies": {
     "twilio": "^3.56",
