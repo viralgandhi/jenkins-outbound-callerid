@@ -69,7 +69,7 @@ pipeline {
                             nodejs("Node-16.18.0") {
                                 sh "twilio plugins:install @twilio-labs/plugin-flex"
                                 sh "npm install"
-                                sh "twilio flex:plugins:upgrade-plugin --install"
+                                //sh "twilio flex:plugins:upgrade-plugin --install"
                                 sh "twilio flex:plugins:build"
                             }
                         }
