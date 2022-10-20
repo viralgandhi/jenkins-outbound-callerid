@@ -62,12 +62,14 @@ pipeline {
             stages {
                 stage("Build") {
                     steps {
+                        sh "printenv | sort"
                         echo "Building..."
                         dir("plugin-outbound-callerid") {
                             echo pwd()
                             nodejs("Node-16.18.0") {
                                 sh "twilio plugins:install @twilio-labs/plugin-flex"
                                 sh "npm install"
+                                sh "twilio flex:plugins:upgrade-plugin --install"
                                 sh "twilio flex:plugins:build"
                             }
                         }
