@@ -1,5 +1,5 @@
 {
-  "name": "config-functions",
+  "name": "outbound-callerid-fns",
   "version": "0.0.0",
   "private": true,
   "scripts": {
